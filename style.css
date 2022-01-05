@@ -3,15 +3,17 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
 }
+
+/* Section Header Start */
+
 .section-header{
     display: flex;
     justify-content: space-between;
     margin: auto 0;
-    margin-bottom: 20px;
 }
 .header-content-area{
     width: 60%;
-    padding: 100px;
+    margin: 100px;
 }
 .special-font{
     font-family: 'Yeseva One', cursive;
@@ -37,4 +39,63 @@ body{
     border: none;
     border-radius: 5px;
 
+}
+
+/* Section Feature Start */
+
+.section-feature h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight:bold;
+}
+.feature{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0 100px;
+}
+.feature img{
+    width: 150px;
+}
+.mission{
+    background-color: #EDF5F6;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+}
+.vision{
+    background-color: #FFEEEE;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px;
+}
+.goals{
+    background-color: #FFF4D6;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+/* Body content started */
+
+.body-content{
+    display: flex;
+    margin: 50px;
+}
+.body-content-text{
+    width: 60%;
+    padding: 5%;
+}
+.body-content-image{
+    width: 40%;
+    padding: 5%;
+}
+.body-content-image img{
+    width: 100%;
+}
+.body-content-button{
+    padding: 10px 30px;
+    background-color: #FF5959;
+    border-radius: 5px;
+    border: none;
 }
