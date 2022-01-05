@@ -16,6 +16,10 @@ body{
 .special-font{
     font-family: 'Yeseva One', cursive;
     font-size: 30px;
+    border-left: 5px solid #FF5959;
+}
+.header-text-area{
+    margin-left: 20px;
 }
 .special-color{
     color: rgb(236, 14, 107);
