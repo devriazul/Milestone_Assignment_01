@@ -113,3 +113,14 @@ body{
     border-radius: 10px;
     padding: 30px;
 }
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer h3{
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+}
