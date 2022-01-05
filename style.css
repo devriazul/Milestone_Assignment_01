@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+.section-header{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 0;
+    margin-bottom: 20px;
+}
+.header-content-area{
+    width: 60%;
+    padding: 100px;
+}
+.special-font{
+    font-family: 'Yeseva One', cursive;
+    font-size: 30px;
+}
+.special-color{
+    color: rgb(236, 14, 107);
+}
+.header-image-area{
+    width: 40%;
+}
+.header-image-area img{
+    width: 400px;
+}
+.header-content-button{
+    padding: 10px 30px;
+    margin-top: 20px;
+    background-color: #FF5959;
+    border: none;
+    border-radius: 5px;
+
+}
