@@ -17,11 +17,12 @@ body{
 }
 .special-font{
     font-family: 'Yeseva One', cursive;
-    font-size: 30px;
     border-left: 5px solid #FF5959;
+    margin-bottom: 50px;
 }
-.header-text-area{
-    margin-left: 20px;
+.special-font h1{
+    font-size: 40px;
+    margin-left:20px;
 }
 .special-color{
     color: rgb(236, 14, 107);
@@ -33,13 +34,16 @@ body{
     width: 400px;
 }
 .header-content-button{
-    padding: 10px 30px;
+    padding: 15px 30px;
     margin-top: 20px;
     background-color: #FF5959;
     border: none;
     border-radius: 5px;
     color: white;
-
+}
+.header-content-button:hover{
+    background-color: purple;
+    transition: .8s;
 }
 
 /* Section Feature Start */
@@ -79,9 +83,21 @@ body{
 
 /* Body content started */
 
-.body-content{
+.body-content-one{
     display: flex;
     margin: 50px;
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15%;
+}
+.body-content-two{
+    display: flex;
+    margin: 50px;
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 15%;
 }
 .body-content-text{
     width: 60%;
@@ -101,6 +117,10 @@ body{
     border: none;
     color: white;
 }
+.body-content-button:hover{
+    background-color: purple;
+    transition: .8s;
+}
 
 /* Contact Form Started */
 
@@ -109,9 +129,22 @@ body{
 }
 .form-area{
     background-color: grey;
-    margin: 0 20%;
+    margin: 5% 30%;
     border-radius: 10px;
     padding: 30px;
+    box-shadow: 5px 5px 5px #aaaaaa;
+}
+.input-form{
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    width: 60%;
+}
+.input-form-text-area{
+    padding: 30px 10px;
+    border: none;
+    border-radius: 4px;
+    width: 60%;
 }
 footer{
     background-color: black;
@@ -123,4 +156,8 @@ footer{
 footer h3{
     font-family: 'Lobster', cursive;
     font-weight: 400;
+}
+footer a{
+    text-decoration: none;
+    color: greenyellow;
 }
