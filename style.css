@@ -132,7 +132,7 @@ body{
     margin: 5% 30%;
     border-radius: 10px;
     padding: 30px;
-    box-shadow: 5px 5px 5px #aaaaaa;
+    box-shadow: 0px 0px 2px 2px lightgrey;
 }
 .input-form{
     padding: 10px;
