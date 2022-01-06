@@ -25,7 +25,7 @@ body{
     margin-left:20px;
 }
 .special-color{
-    color: rgb(236, 14, 107);
+    color: #FF5959;
 }
 .header-image-area{
     width: 40%;
@@ -42,7 +42,7 @@ body{
     color: white;
 }
 .header-content-button:hover{
-    background-color: purple;
+    background-color: red;
     transition: .8s;
 }
 
@@ -118,7 +118,7 @@ body{
     color: white;
 }
 .body-content-button:hover{
-    background-color: purple;
+    background-color: red;
     transition: .8s;
 }
 
@@ -131,7 +131,7 @@ body{
     margin: 5% 30%;
     border-radius: 10px;
     padding: 30px;
-    box-shadow: 0px 0px 3px 3px lightgrey;
+    box-shadow: 0px 0px 2px 2px lightgrey;
     background-image: url(images/message.png);
     background-repeat: no-repeat;
     background-position: right top;
