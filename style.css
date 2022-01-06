@@ -132,6 +132,10 @@ body{
     border-radius: 10px;
     padding: 30px;
     box-shadow: 0px 0px 3px 3px lightgrey;
+    background-image: url(images/message.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 15%;
 }
 .input-form{
     padding: 10px;
