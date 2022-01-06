@@ -6,7 +6,7 @@ body{
 
 /* Section Header Start */
 
-.section-header{
+#section-header{
     display: flex;
     justify-content: space-between;
     margin: auto 0;
@@ -48,7 +48,7 @@ body{
 
 /* Section Feature Start */
 
-.section-feature h1{
+#section-feature h1{
     text-align: center;
     font-size: 40px;
     font-weight:bold;
@@ -83,7 +83,7 @@ body{
 
 /* Body content started */
 
-.body-content-one{
+#body-content-one{
     display: flex;
     margin: 50px;
     background-image: url(./images/shapes/shape-1.png);
@@ -91,7 +91,7 @@ body{
     background-position: left;
     background-size: 15%;
 }
-.body-content-two{
+#body-content-two{
     display: flex;
     margin: 50px;
     background-image: url(./images/shapes/shape-1.png);
@@ -124,7 +124,7 @@ body{
 
 /* Contact Form Started */
 
-.section-contact{
+#section-contact{
     text-align: center;
 }
 .form-area{
