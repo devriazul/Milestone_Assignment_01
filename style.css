@@ -135,13 +135,13 @@ body{
 }
 .input-form{
     padding: 10px;
-    border: none;
+    border: 1px solid lightpink;
     border-radius: 4px;
     width: 60%;
 }
 .input-form-text-area{
     padding: 30px 10px;
-    border: none;
+    border: 1px solid lightpink;
     border-radius: 4px;
     width: 60%;
 }
